@@ -1,0 +1,28 @@
+{
+  "name": "katana-signup-test",
+  "type": "section",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getweweb/katana-signup-test"
+  },
+  "version": "0.1.4",
+  "private": true,
+  "scripts": {
+    "build": "weweb-build",
+    "serve": "weweb-serve",
+    "create-config": "weweb-config"
+  },
+  "dependencies": {
+    "auth0-lock": "^11.22.5",
+    "moment-timezone": "^0.5.28",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "weweb-client": "latest"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
