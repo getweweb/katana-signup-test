@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/getweweb/katana-signup-test"
   },
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "scripts": {
     "build": "weweb-build",
@@ -19,10 +19,5 @@
   },
   "devDependencies": {
     "weweb-client": "latest"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  }
 }
